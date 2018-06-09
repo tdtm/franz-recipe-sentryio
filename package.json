@@ -1,0 +1,15 @@
+{
+  "id": "sentry.io",
+  "name": "Sentry",
+  "version": "0.1.0",
+  "description": "Error Tracking Software",
+  "main": "index.js",
+  "author": "tdtm <https://github.com/tdtm/>",
+  "license": "MIT",
+  "config": {
+    "serviceURL": "https://sentry.io/{teamId}/",
+    "hasNotificationSound": false,
+    "hasIndirectMessages": true,
+    "hasTeamId": true
+  }
+}
